@@ -55,7 +55,7 @@ The `IX83 Server` accepts two types of request, both of which must end with the 
   - This option does not require any additional arguments.
   - If this argument is omitted, the console window will not be shown.
 
-## Safe Termination of the Process
+## Safe Termination
 
 In principle, manual termination of the daemon process is unnecessary. After sending the `{Daemon}QuitPortManager` command, the Olympus Port Manager will automatically close the interface and destroy itself. Subsequently, the microscope can be manually shut down in a safe manner.
 
