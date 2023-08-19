@@ -57,10 +57,10 @@ The `IX83 Server` accepts two types of request, both of which must end with the 
 
 ## Safe Termination of the Process
 
-In principle, manual termination of the daemon process is unnecessary. After sending the `{Daemon}QuitPortManager`` command, the Olympus Port Manager will automatically close the interface and destroy itself. Subsequently, the microscope can be manually shut down in a safe manner.
+In principle, manual termination of the daemon process is unnecessary. After sending the `{Daemon}QuitPortManager` command, the Olympus Port Manager will automatically close the interface and destroy itself. Subsequently, the microscope can be manually shut down in a safe manner.
 
 However, two termination codes are writen to safely stopping the daemon process in exceptional situations: `KillConsole` and `KillAll` (see the `.pro` file).  Both codes operate similarly, but KillAll will terminate all processes without prompting for confirmation.
 
 ## License
 
-This project is licensed under the GNU GPL v3 License. Refer to the `LICENSE`` file for details.
+This project is licensed under the GNU GPL v3 License. Refer to the `LICENSE` file for details.
